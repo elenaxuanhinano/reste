@@ -1,0 +1,29 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .h-mizax {
+    height: 500px;
+  }
+  .h-mizax007 {
+    height: 200px;
+  }
+  }
+  .c-mizax008 {
+    color: '559cfd';
+  }
+
+
+}
+
+
+
